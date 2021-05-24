@@ -1,1 +1,1 @@
-# Discerning-the-painter-s-hand
+# Discerning the painter's hand
