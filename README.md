@@ -6,3 +6,5 @@ Attribution of painted works is a critical problem in art history. In painted wo
 A series of twelve paintings by four artists, and their associated topographical profiles, is subject to analysis to attribute the works and to ascertain the important properties involved in that attribution. To analyze these profiles, we use convolutional neural networks (CNNs) to provide a robust and quantitative method to distinguish among random small areas of the triplicate paintings by multiple artists. Bi-directional multivariate empirical mode decomposition (EMD) is applied to the height data collected by profilometry to separate the data into complementary intrinsic mode functions (IMFs) of varying spatial frequency. Finally, we compare ML on photographic and topographic data.  
 
 ![sample_painting](https://user-images.githubusercontent.com/24704249/119850155-4504f480-bedb-11eb-84d7-a65948fc4d2c.png)
+
+![sample_patches](https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png)
