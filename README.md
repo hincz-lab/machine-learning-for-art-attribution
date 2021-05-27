@@ -11,7 +11,7 @@ In preparation for the experiments, the height information is digitally split in
 <p align="center">
 <![sample_patches](https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png)>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png" alt="sample_patches" height="20%" width="20%">
+<img src="https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png" alt="sample_patches" height="40%" width="40%">
 </p>
 
 ## Using empirical mode decomposition to determine the length-scales of the brushstroke topography 
