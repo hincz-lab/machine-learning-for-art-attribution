@@ -11,14 +11,14 @@ Each artist (artist 1-4) created three painting, one of which was reserved for t
 ## Exploring the effect of patch size on attribution accuracy
 In preparation for the experiments, the height information is digitally split into small patches with a range of patch sizes from 10 pixels (0.5 mm) to 1200 pixels (6 cm). We train those patches using the pretrained VGG-16 network. The following figure shows sample patches of height data from each artist, each patch is 200x200 pixels (10x10 mm).
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png" alt="sample_patches" height="50%" width="50%">
+<img src="https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png" alt="sample_patches" height="40%" width="40%">
 </p>
 
 ## Using empirical mode decomposition to determine the length-scales of the brushstroke topography 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24704249/119856447-b6937180-bee0-11eb-8db0-5e3727a46acc.png" alt="imf" height="40%" width="40%">
+<img src="https://user-images.githubusercontent.com/24704249/119856447-b6937180-bee0-11eb-8db0-5e3727a46acc.png" alt="imf" height="30%" width="30%">
 </p>
 ## Comparing topography versus photography when testing on data with novel characteristics
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24704249/119856399-ad0a0980-bee0-11eb-913d-76c62936e251.png" alt="fore_back" height="30%" width="30%">
+<img src="https://user-images.githubusercontent.com/24704249/119856399-ad0a0980-bee0-11eb-913d-76c62936e251.png" alt="fore_back" height="25%" width="25%">
 </p>
