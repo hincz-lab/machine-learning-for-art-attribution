@@ -8,6 +8,7 @@ In our experiment, a series of twelve paintings by four artists, and their assoc
 Each artist (artist 1-4) created three painting, one of which was reserved for testing the training CNN algorithm. These test paintings are shown for all four artist as first row: high-resolution photographs (all paintings used in the study can be found in SI in our paper), and second row: height data, shaded in grayscale from low (darker) to high (lighter). 
 ## Exploring the effect of patch size on attribution accuracy
 In preparation for the experiments, the height information is digitally split into small patches with a range of patch sizes from 10 pixels (0.5 mm) to 1200 pixels (6 cm). We train those patches using the pretrained VGG-16 network. The following figure shows sample patches of height data from each artist, each patch is 200x200 pixels (10x10 mm).
+<p align="center">
 ![sample_patches](https://user-images.githubusercontent.com/24704249/119850265-6534b380-bedb-11eb-9b63-568f48de51a4.png)
 
 ## Using empirical mode decomposition to determine the length-scales of the brushstroke topography 
