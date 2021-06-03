@@ -26,11 +26,19 @@ By processing the digital surface reconstructions using the EMD we extract intri
 </p>
 
 ## Comparing topography versus photography when testing on data with novel characteristics
-Image recognition by ML is most often performed on photographic images of the subject depicted by arrays of RGB channels performed on the entire image. We sought to determine how well the same ML algorithm on patches of the high-resolution photographs would perform compared to the profilometry data. To generate qualitatively distinct training and testing sets, we divided each painting into patches of side-length 100 pixels (5 mm) and then sorted the patches into three categories: background, foreground, and border depending on the color composition of each patch.
+Image recognition by ML is most often performed on photographic images of the subject depicted by arrays of RGB channels performed on the entire image. We sought to determine how well the same ML algorithm on patches of the high-resolution photographs would perform compared to the profilometry data. To generate qualitatively distinct training and testing sets, we divided each painting into patches of side-length 100 pixels (5 mm) and then sorted the patches into three categories: background, foreground, and border depending on the color composition of each patch. We excluded all the border patches to make the analysis more stringent. We then trained and validated on foreground patches, tested on background patches, or vice versa, using both height data and high resolution photo data. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/24704249/119856399-ad0a0980-bee0-11eb-913d-76c62936e251.png" alt="fore_back" height="25%" width="25%">
 </p>
 
-## Getting started
-There are three 
+## main files
+xxxxxx: the environment where we use VGG-16 to quantitatively attribute the individual patches of the painting using height data.
+xxxxxxx: an example script showing how we calculate ensemble accuracy, f1-score, precision, and recall. 
+emd_individual_imfs.ipynb: the environment where we investigate how the individual IMFs affect the attribution results. 
+foreground_background_height.ipynb: the environment where we train and validate on foreground patches, test on background patches, or vice versa, using height data. 
+foreground_background_photo.ipynb: the environment where we train and validate on foreground patches, test on background patches, or vice versa, using high resolution photo data. 
+xxxx: 
+
+## GPU information
+We used Tesla P100 and NVIDIA Tesla K40 GPU for part of the analysis. This work also made use of the High Performance Computing Resource in the Core Facility for Advanced Research Computing at Case Western Reserve University.
