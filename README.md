@@ -33,12 +33,16 @@ Image recognition by ML is most often performed on photographic images of the su
 </p>
 
 ## main files
-xxxxxx: the environment where we use VGG-16 to quantitatively attribute the individual patches of the painting using height data.
-xxxxxxx: an example script showing how we calculate ensemble accuracy, f1-score, precision, and recall. 
-emd_individual_imfs.ipynb: the environment where we investigate how the individual IMFs affect the attribution results. 
-foreground_background_height.ipynb: the environment where we train and validate on foreground patches, test on background patches, or vice versa, using height data. 
-foreground_background_photo.ipynb: the environment where we train and validate on foreground patches, test on background patches, or vice versa, using high resolution photo data. 
-xxxx: 
+Data are available at https://osf.io/chj62/files/
 
-## GPU information
-We used Tesla P100 and NVIDIA Tesla K40 GPU for part of the analysis. This work also made use of the High Performance Computing Resource in the Core Facility for Advanced Research Computing at Case Western Reserve University.
+height_ensemble.ipynb: the environment where we use VGG-16 to quantitatively attribute the individual patches of the painting using height data.
+
+ensemble_analysis.ipynb: an example script showing how we calculate ensemble accuracy, f1-score, precision, and recall. 
+
+emd_individual_imfs.ipynb: the environment where we investigate how the individual IMFs affect the attribution results. 
+
+foreground_background_height.ipynb: the environment where we train and validate on foreground patches, test on background patches, or vice versa, using height data. 
+
+mask_info_with_borders.csv: a file that divides a whole painting into background/foreground/border patches, with a 1 indicating a background patch, a 0 indicating a foreground patch, and a 0.5 indicating a border (not to be used for training or testing). The patch size if 100x100 pixels, the patches are ordered left-to-right, top-to-bottom, starting from the top left (patch 1) and ending on the bottom right (patch 720).
+
+
