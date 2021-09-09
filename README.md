@@ -32,7 +32,7 @@ Image recognition by ML is most often performed on photographic images of the su
 <img src="https://user-images.githubusercontent.com/24704249/119856399-ad0a0980-bee0-11eb-913d-76c62936e251.png" alt="fore_back" height="25%" width="25%">
 </p>
 
-## main files
+## Main files
 Data are available at https://osf.io/chj62/files/
 
 height_ensemble.ipynb: the environment where we use VGG-16 to quantitatively attribute the individual patches of the painting using height data.
